@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TextField">
+        <attr name="android:hint"/>
+        <attr name="android:text"/>
+        <attr name="hintTextColor" format="color"/>
+        <attr name="android:textColor"/>
+        <attr name="endIconMode"/>
+        <attr name="helperText"/>
+        <attr name="counterMaxLength"/>
+        <attr name="inputType" format="enum">
+            <enum name="text" value="2"/>
+            <enum name="number" value="1"/>
+            <enum name="password" value="0"/>
+        </attr>
+    </declare-styleable>
+</resources>
